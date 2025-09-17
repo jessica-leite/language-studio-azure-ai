@@ -109,3 +109,6 @@ Abra o portal do Azure em (https://portal.azure.com) e selecione o grupo de recu
 
 Selecione os recursos, selecione Excluir e, em seguida, Sim para confirmar. Os recursos serão excluídos.
 
+Fontes: 
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/09-speech.html
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html
