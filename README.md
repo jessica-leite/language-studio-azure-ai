@@ -1,4 +1,4 @@
-#Explorar a fala no portal do Azure AI Foundry - Passo a passo
+# Explorar a fala no portal do Azure AI Foundry - Passo a passo
 
 O serviço de IA do Azure transcreve fala em texto e texto em fala. Você pode usar a IA para criar um aplicativo para transcrever notas de reunião ou gerar um texto
 a partir de uma gravação.
@@ -41,7 +41,7 @@ Abrir o portal do Azure e selecionar o grupo de recursos que contém o recurso q
 Selecione o recurso, selecione Excluir e, em seguida, Sim para confirmar. O recurso será excluído.
 
 
-#Analisar texto no portal do Azure AI Foundry - Passo a passo
+# Analisar texto no portal do Azure AI Foundry - Passo a passo
 
 O Processamento de Linguagem Natural (PLN) é um ramo da IA ​​que lida com a linguagem escrita e falada. 
 Você pode usar o PNL para criar soluções que extraem significado semântico de texto ou fala, ou que formulam respostas significativas em linguagem natural.
