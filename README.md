@@ -10,7 +10,7 @@ Feche todas as dicas ou painéis de início rápido que forem abertos na primeir
 No navegador, navegue até [Azure - All Resources](https://ai.azure.com/managementCenter/allResources) e selecione Criar. 
 Em seguida, escolha a opção para criar um novo recurso do Azure AI Foundry.
 
-No assistente \*Criar um projeto*\, insira um nome para o seu projeto.
+No assistente \*Criar um projeto\*, insira um nome para o seu projeto.
 
 Expanda Opções avançadas para especificar as seguintes configurações para o seu projeto:
 Assinatura: Sua assinatura do Azure
@@ -25,11 +25,11 @@ Na página Playgrounds, selecione o bloco Playground de Fala para testar alguns 
 Explore a conversão de fala em texto no Speech Playground do Azure AI Foundry
 Vamos testar a conversão de fala em texto no Speech Playground do Azure AI Foundry.
 
-Na página \*Fala*\, role para baixo e selecione \*Transcrição*\ em tempo real em \*Experimentar recursos de fala*\. Você será direcionado para o \*Speech Playground*\.
+Na página \*Fala*\, role para baixo e selecione \*Transcrição\* em tempo real em \*Experimentar recursos de fala\*. Você será direcionado para o \*Speech Playground\*.
 
 Selecione (https://aka.ms/mslearn-speech-files) para baixar o arquivo speech.zip. Abra a pasta.
 
-Em \*Carregar arquivos*\, selecione Procurar arquivos e navegue até a pasta onde você salvou o arquivo. Selecione WhatAICanDo.m4a e, em seguida, Abrir.
+Em \*Carregar arquivos\*, selecione Procurar arquivos e navegue até a pasta onde você salvou o arquivo. Selecione WhatAICanDo.m4a e, em seguida, Abrir.
 
 O serviço Speech transcreve e exibe o texto em tempo real. Se você tiver áudio no seu computador, poderá ouvir a gravação enquanto o texto é transcrito.
 
@@ -48,7 +48,7 @@ Você pode usar o PNL para criar soluções que extraem significado semântico d
 
 O serviço de Linguagem do Azure AI inclui Análise de Texto, com recursos como reconhecimento de entidades, extração de frases-chave, sumarização e análise de sentimentos. 
 
-No navegador, navegue até https://ai.azure.com/managementCenter/allResources e selecione Criar. Em seguida, escolha a opção para criar um novo recurso do Azure AI Foundry.
+No navegador, navegue até (https://ai.azure.com/managementCenter/allResources) e selecione \*Criar\*. Em seguida, escolha a opção para criar um novo recurso do Azure AI Foundry.
 
 No assistente Criar um projeto, insira um nome válido para o seu projeto.
 
@@ -68,7 +68,12 @@ Vamos usar o recurso de extração de entidades nomeadas do Azure AI Language pa
 
 No Playground de Linguagens, selecione Extrair informações. Em seguida, selecione o bloco Extrair entidades nomeadas.
 
-Em Amostra, copie e cole a seguinte análise:
+Em \*Amostra\*, copie e cole a seguinte análise:
+"Hotel antigo com serviço ruim
+The Royal Hotel, Londres, Reino Unido
+06/05/2018
+Este é um hotel antigo (existe desde a década de 1950) e os móveis dos quartos são medianos – estão ficando um pouco velhos agora e precisam ser trocados. A internet não funcionava e tive que ir a um dos escritórios deles para fazer o check-in para o meu voo de volta. O site diz que fica perto do Museu Britânico, mas é longe demais para ir a pé."
+
 Selecione Executar. Analise a saída. Observe na seção Detalhes como as entidades extraídas vêm com informações adicionais, como tipo e pontuações de confiança. 
 A pontuação de confiança representa a probabilidade de o tipo identificado realmente pertencer a essa categoria.
 Extraia frases-chave com a Linguagem de IA do Azure no portal do Azure AI Foundry
@@ -78,6 +83,10 @@ para extrair informações importantes de uma avaliação.
 No playground de idiomas, selecione "Extrair informações". Em seguida, selecione o bloco "Extrair frases-chave".
 
 Em "Exemplo", copie e cole a seguinte avaliação:
+"Bom hotel e equipe
+The Royal Hotel, Londres, Reino Unido
+02/03/2018
+Quartos limpos, bom serviço, ótima localização, perto do Palácio de Buckingham e da Abadia de Westminster, entre outros. Adoramos a nossa estadia. O pátio é muito tranquilo e fomos a um restaurante indiano (costa oeste, então tem bastante peixe) que faz parte do mesmo grupo e tem uma estrela Michelin. Pedimos o menu degustação, que estava fabuloso. Os quartos eram muito bem equipados, com cozinha, sala de estar, quarto e banheiro enorme. Recomendo totalmente."
 
 Selecione "Executar". Revise a saída. Observe as diferentes frases extraídas na seção "Detalhes". Essas frases devem contribuir mais para o significado do texto.
 
@@ -85,6 +94,12 @@ Resuma o texto com a Linguagem de IA do Azure no portal do Azure AI Foundry
 Vamos analisar os recursos de sumarização da Linguagem de IA do Azure. No playground de idiomas, selecione "Resumir informações" e, em seguida, selecione o bloco "Resuma texto".
 
 Em "Exemplo", copie e cole a seguinte avaliação:
+
+"Muito barulhento e os quartos são minúsculos
+The Lombard Hotel, São Francisco, EUA
+05/09/2018
+O hotel fica na Lombard Street, uma rua de seis faixas muito movimentada, logo ao lado da Ponte Golden Gate. Trânsito intenso desde o início da manhã até tarde da noite, especialmente nos fins de semana. O barulho não seria tão ruim se os quartos tivessem um isolamento melhor, mas não têm. Tive que colocar algodão nos ouvidos para conseguir dormir – estava cansado demais para aproveitar a cidade no dia seguinte. Os quartos são minúsculos. Escolhi o quarto porque tinha duas camas queen size – mas o quarto mal tinha espaço para elas. Com uma família de quatro pessoas no quarto, era apertado. Dito isso, os quartos são limpos e eles se esforçaram para atualizá-los. O hotel fica no bairro Marina, com muitos bons lugares para comer, a uma curta distância do Presídio. Pode ser um bom hotel para jovens adultos que ficam acordados até tarde e têm orçamento limitado."
+
 Selecione Executar. Revise a saída. Observe que o Resumo extrativo em Detalhes fornece pontuações de classificação para as frases mais relevantes.
 
 Limpeza
